@@ -1,8 +1,14 @@
-import React from 'react';
-
+import React, {useState, useEffect} from 'react';
+import { fetchDailyData } from '../../api'
 const Chart = () => {
+    const [dailyData, setDailyData] = useState({});
+
+    useEffect(()=>{
+        const fetchDailyData
+    });
+
     return(
-        <h1>Cards</h1>
+        <h1>Chart</h1>
     );
 }
 
