@@ -1,6 +1,9 @@
 body {
   background-color: rgb(250, 250,250);
 }
+.git{
+  margin-top: 60px;
+}
 
 .container {
   display: flex;
